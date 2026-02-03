@@ -1,0 +1,54 @@
+{
+    "profileSummary": {
+        "title": "Career Summary",
+        "summary": "Software Developer with over 5 years of working experience in several large organizations in the public sector and e-commerce industry. Developed features used by thousands / millions of users in different jobs. Familiar with both front-end and back-end development using JavaScript and Java."
+    },
+    "education": {
+        "title": "Education"
+    },
+    "technicalWorkingExperiences": {
+        "title": "Technical Work Experiences",
+        "info": [
+            {
+                "role": "Analyst Programmer",
+                "company": "Electrical and Mechanical Services Department, HKSARG",
+                "time": "25 Aug 2021 – 28 Aug 2023",
+                "details": [
+                    "Developed and enhanced Job Management, Vendor Portal and other systems supporting over 5,000 users and managing over 1 million pieces of equipment.",
+                    "Responsible for the full-stack web development (more backend focused) using Nodejs, MongoDB, Express, Angular.",
+                    "Developed 100+ API endpoints and composed relevant documentation.",
+                    "Followed Scrum and Git-flow to collaborate with BA, QA and other developers to hold weekly sprint planning and review. Coordinated and tracked the project using Azure Devops.",
+                    "Developed features like Preventive Maintenance (PM), Stock Reservation, Batch Timesheet Submission, etc. Enabled users to complete over 10, 000 maintenance jobs within 1 year after the launch of PM feature."
+                ]
+            },
+            {
+                "role": "Analyst Programmer",
+                "company": "Elee Consulting Limited (Deployed to Hospital Authority)",
+                "time": "17 Aug 2020 – 5 May 2021",
+                "details": [
+                    "Enhanced Budget Planning System for Hospital Authority.",
+                    "Developed the front end of the new features using technologies like react, redux, material UI, etc. The website in this project consists of many forms and excel-like spreadsheets which were created using Handsontable.js."
+                ]
+            },
+            {
+                "role": "Programmer",
+                "company": "Hong Kong Television Network Limited",
+                "time": "15 Feb 2019 – 9 Aug 2020",
+                "details": [
+                    "Developed new features for HKTVMall e-commerce website, which is used by over 1 million users and sells over 1 million products simultaneously, using React, TypeScript, JavaScript, HTML5, CSS, JSP, etc.",
+                    "Enhanced and maintained the desktop web, mobile web and web views inside apps for different systems in HKTV."
+                ]
+            },
+            {
+                "role": "Junior Associate",
+                "company": "Azeus Systems Limited",
+                "time": "1 Mar 2017 – 29 Jan 2019",
+                "details": [
+                    "Coordinated Electronic Record Keeping System project in the Civil Engineering & Development Department in the Hong Kong government. Met with external clients weekly to report project progress and prepared meeting minutes. Provided help desk support and user training.",
+                    "Reported bugs and production issues to the offshore development team. Tested the bug-fixes and new system features. Prepared user manuals of the system.",
+                    "Enhanced the Procurement and Contracts Management Systems using Java Technologies (e.g. JavaFX, JSP). Developed a desktop application for certificate upload."
+                ]
+            }
+        ]
+    }
+}

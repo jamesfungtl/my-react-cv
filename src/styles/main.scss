@@ -1,0 +1,166 @@
+@use "./variables";
+@use './mixins';
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: variables.$text-color-secondary;
+    background: variables.$smoky-white;
+    font-size: 14px;
+    padding: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.42857143
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+a {
+    color: darken(variables.$theme-color, 15%);
+
+    &:hover {
+        text-decoration: underline;
+        color: darken(variables.$theme-color, 30%);
+    }
+
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+p {
+    line-height: 1.5;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background: variables.$theme-color;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    @include mixins.box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.main-wrapper {
+    grid-column: span 7;
+    order: variables.$resume-order;
+    background: #fff;
+    padding: 60px;
+
+    .section-title {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 500;
+        color: darken(variables.$theme-color, 15%);
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .section {
+        margin-bottom: 60px;
+    }
+
+    .experiences-section,
+    .recommendations-section,
+    .educations-section {
+        .item {
+            margin-bottom: 30px;
+        }
+    }
+
+    .upper-row,
+    .second-upper-row {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 2px;
+        display: flex;
+    }
+
+    .job-title,
+    .degree,
+    .cert-title,
+    .recommendation-person {
+        color: variables.$text-color;
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 500;
+        flex: 75%;
+    }
+
+    .time,
+    .cert-url {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: variables.$text-grey;
+        flex: 25%;
+    }
+
+    .company,
+    .recommendation-role,
+    .university,
+    .cert-org {
+        margin-bottom: 10px;
+        color: variables.$text-grey;
+    }
+
+    .project-title {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 5px;
+        color: darken(variables.$theme-color, 15%);
+    }
+
+    .projects-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+    }
+
+    .oss-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+    }
+
+    .publication-title {
+        font-size: 16px;
+        font-weight: 400;
+        color: variables.$text-color;
+        margin-bottom: 1px;
+    }
+
+    .publication-authors {
+        font-style: italic;
+        color: variables.$text-grey;
+        margin-bottom: 1px;
+    }
+
+    .publications-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+    }
+}
