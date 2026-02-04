@@ -4,7 +4,15 @@
         "summary": "Software Developer with over 5 years of working experience in several large organizations in the public sector and e-commerce industry. Developed features used by thousands / millions of users in different jobs. Familiar with both front-end and back-end development using JavaScript and Java."
     },
     "education": {
-        "title": "Education"
+        "title": "Education",
+        "info": [
+            {
+                "degree": "BBA (Information Systems)",
+                "university": "The University of Hong Kong",
+                "time": "Sep 2012 – Nov 2017",
+                "details": "Majors: Information Systems & Computer Science | Minor: Economics \nSecond Class Honors – Division One"
+            }
+        ]
     },
     "technicalWorkingExperiences": {
         "title": "Technical Work Experiences",
@@ -50,5 +58,12 @@
                 ]
             }
         ]
+    },
+    "sidebar": {
+        "name": "James Fung",
+        "tagline": "Full Stack Software Developer",
+        "email": "jamesfungtl@gmail.com",
+        "linkedin": "tai-leung-fung-66103466",
+        "github": "jamesfungtl"
     }
 }

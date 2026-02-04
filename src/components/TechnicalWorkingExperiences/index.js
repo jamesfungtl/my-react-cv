@@ -2,13 +2,11 @@ import React from "react";
 import data from "../../data/data.json";
 
 export const TechnicalWorkingExperiences = () => {
-    const technicalWorkingExperienceListWithId = data.technicalWorkingExperiences.info.map((item, idx) => ({ ...item, id: idx + 1 }));
+    const technicalWorkingExperienceListWithId = data?.technicalWorkingExperiences?.info?.map((item, idx) => ({ ...item, id: idx + 1 }));
 
     return (
         <section className="section experiences-section">
             <h2 className="section-title">
-                <span className="fa-stack fa-xs">
-                </span>
                 {data.technicalWorkingExperiences.title}
             </h2>
 

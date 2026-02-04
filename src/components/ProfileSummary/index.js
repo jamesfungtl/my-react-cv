@@ -6,10 +6,6 @@ export const ProfileSummary = () => {
         <section className="section summary-section">
 
             <h2 className="section-title">
-                <span className="fa-stack fa-xs">
-                    <i className="fas fa-circle fa-stack-2x"></i>
-                    <i className="fas fa-user fa-stack-1x fa-inverse"></i>
-                </span>
                 {data.profileSummary.title}
             </h2>
 
