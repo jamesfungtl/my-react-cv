@@ -5,6 +5,7 @@ import "./styles/responsive.scss";
 import ProfileSummary from "./components/ProfileSummary";
 import TechnicalWorkingExperiences from "./components/TechnicalWorkingExperiences";
 import Sidebar from './components/Sidebar';
+import EducationForMobile from './components/EducationForMobile';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <div className="main-wrapper">
           <ProfileSummary />
           <TechnicalWorkingExperiences />
+          <EducationForMobile />
         </div>
       </div>
     </div>

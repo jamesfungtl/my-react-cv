@@ -2,6 +2,8 @@ import React from "react";
 import data from "../../data/data.json";
 import Contact from "../Contact";
 import Education from "../Education";
+import OnlineCertificates from "../OnlineCertificates";
+import Languages from "../Languages";
 
 export const Sidebar = () => {
     return (
@@ -12,6 +14,8 @@ export const Sidebar = () => {
             </div>
             <Contact />
             <Education />
+            <OnlineCertificates />
+            <Languages />
         </div>
     );
 };

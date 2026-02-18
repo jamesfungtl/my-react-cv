@@ -59,6 +59,40 @@
             }
         ]
     },
+    "onlineCertificates": {
+        "title": "Online Certificates",
+        "info": [
+            {
+                "name": "JavaScript (Intermediate) from Hackerrank",
+                "link": "https://www.hackerrank.com/certificates/4ce1c41a05bd"
+            },
+            {
+                "name": "Problem Solving (Intermediate)",
+                "link": "https://www.hackerrank.com/certificates/bda5783abac3"
+            },
+            {
+                "name": "SQL (Intermediate)",
+                "link": "https://www.hackerrank.com/certificates/84b3ae47cfcc"
+            }
+        ]
+    },
+    "languages": {
+        "title": "Languages",
+        "info": [
+            {
+                "language": "English ",
+                "level": "Fluent"
+            },
+            {
+                "language": "Cantonese ",
+                "level": "Native"
+            },
+            {
+                "language": "Mandarin ",
+                "level": "Moderate"
+            }
+        ]
+    },
     "sidebar": {
         "name": "James Fung",
         "tagline": "Full Stack Software Developer",

@@ -5,7 +5,7 @@ export const Education = () => {
     const educationListWithId = data?.education?.info?.map((item, idx) => ({ ...item, id: idx + 1 }));
 
     return (
-        <div>
+        <div className="desktop-only">
             {data?.education?.title && <div className="education-container container-block">
 
                 <h2 className="container-block-title">
@@ -17,7 +17,7 @@ export const Education = () => {
                             <h4 className="degree">{education.degree}</h4>
                             <div className="time">{education.university}</div>
                             <div className="time">{education.time}</div>
-                            <h5 className="meta">{education.details}</h5>
+                            <h5 className="meta" style={{ whiteSpace: "pre-line" }}>{education.details}</h5>
                         </div>
                     ))
                 }

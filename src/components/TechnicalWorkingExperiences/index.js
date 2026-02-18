@@ -7,7 +7,7 @@ export const TechnicalWorkingExperiences = () => {
     return (
         <section className="section experiences-section">
             <h2 className="section-title">
-                {data.technicalWorkingExperiences.title}
+                {data?.technicalWorkingExperiences?.title}
             </h2>
 
             {technicalWorkingExperienceListWithId.map(job => (
