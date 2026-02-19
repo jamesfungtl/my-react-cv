@@ -4,6 +4,7 @@ import "./styles/main.scss";
 import "./styles/responsive.scss";
 import ProfileSummary from "./components/ProfileSummary";
 import TechnicalWorkingExperiences from "./components/TechnicalWorkingExperiences";
+import CanadaWorkingExperiences from "./components/CanadaWorkingExperiences";
 import Sidebar from './components/Sidebar';
 import EducationForMobile from './components/EducationForMobile';
 
@@ -16,6 +17,7 @@ function App() {
           <ProfileSummary />
           <TechnicalWorkingExperiences />
           <EducationForMobile />
+          <CanadaWorkingExperiences />
         </div>
       </div>
     </div>

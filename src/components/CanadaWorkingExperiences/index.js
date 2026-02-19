@@ -1,17 +1,18 @@
 import React from "react";
 import data from "../../data/data.json";
 
-export const TechnicalWorkingExperiences = () => {
-    const technicalWorkingExperienceListWithId = data?.technicalWorkingExperiences?.info?.map((item, idx) => ({ ...item, id: idx + 1 }));
+export const CanadaWorkingExperiences = () => {
+    const canadaWorkingExperienceListWithId = data?.canadaWorkingExperiences?.info?.map((item, idx) => ({ ...item, id: idx + 1 }));
 
     return (
         <section className="section experiences-section">
-            {data?.technicalWorkingExperiences && <div>
+            {data?.canadaWorkingExperiences && <div>
+
                 <h2 className="section-title">
-                    {data?.technicalWorkingExperiences?.title}
+                    {data?.canadaWorkingExperiences?.title}
                 </h2>
 
-                {technicalWorkingExperienceListWithId?.map(job => (
+                {canadaWorkingExperienceListWithId.map(job => (
                     <div key={job.id} className="item">
 
                         <div className="meta">
@@ -38,4 +39,4 @@ export const TechnicalWorkingExperiences = () => {
     );
 };
 
-export default TechnicalWorkingExperiences;
+export default CanadaWorkingExperiences;

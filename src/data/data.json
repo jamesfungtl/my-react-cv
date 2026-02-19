@@ -59,6 +59,34 @@
             }
         ]
     },
+    "canadaWorkingExperiences": {
+        "title": "Canada Work Experiences",
+        "info": [
+            {
+                "role": "Cargo Handler",
+                "company": "Menzies Aviation Limited, Canada",
+                "time": "20 Jun 2024 – 14 Nov 2025",
+                "details": [
+                    "Handled tons of cargo per working day in Menzies warehouse at the airport.",
+                    "Processed customers’ cargo drop-off or pick-up requests. Weighed, measured, counted, inspected and recorded incoming cargo. Retrieved the requested cargo from the recorded warehouse location to customers using a forklift.",
+                    "Conducted routine forklift inspections and replaced their propane gas when needed.",
+                    "Built up secured cargo dropped from truck drivers to different ULDs for export via flight. Weighed the built ULDs and prepared relevant export documents such as load sheets.",
+                    "Performed cargo breakdown after receiving imports from flights. Moved it to skids/pallets and packaged it for temporary storage in our warehouse and waiting for pickup by truck drivers.",
+                    "Maintained work areas cleanliness, safety and security. Made workplaces hazard free of foreign object debris."
+                ]
+            },
+            {
+                "role": "Pet Sitter (Freelance)",
+                "company": "Rover, Canada",
+                "time": "05 Feb 2024 – 20 July 2025",
+                "details": [
+                    "Provided dogs boarding services to 30+ clients. Provided daily care for dogs of various breeds, sizes, and temperaments.",
+                    "Managed feeding schedules, fresh water, walks, exercise routines and hygienic needs. Administered medications and followed special dietary or medical instructions.",
+                    "Maintained strong communication with pet owners, including regular updates and photos."
+                ]
+            }
+        ]
+    },
     "onlineCertificates": {
         "title": "Online Certificates",
         "info": [
