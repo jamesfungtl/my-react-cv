@@ -1,8 +1,8 @@
 {
-  "name": "my-react-cv",
+  "name": "my-cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jamesfungtl.github.io/my-react-cv",
+  "homepage": "https://jamesfungtl.github.io/my-cv",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
     "@fortawesome/free-brands-svg-icons": "^7.1.0",
